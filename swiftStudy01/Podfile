@@ -1,0 +1,30 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target ‘swiftStudy01’ do
+    
+#导航栏用
+pod 'Kingfisher'
+
+#swift版的AFNetworking
+pod 'Alamofire'
+
+#上拉加载下拉刷新 简单使用
+pod 'ESPullToRefresh'
+
+#swift版的SDWebImage
+pod 'Kingfisher'
+
+
+#swift版的Masonry
+pod 'SnapKit'
+
+#swift版本的JSONModel
+pod 'SwiftyJSON'
+
+
+pod 'TYAlertController'
+pod 'SVProgressHUD'
+
+
+end
